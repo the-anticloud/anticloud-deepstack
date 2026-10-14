@@ -1,0 +1,138 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:ba783051-885a-5698-96ca-35cad32f1f2a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T17:23:27Z",
+  "component": {
+   "type": "application",
+   "name": "DEEPSTACK",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/DEEPSTACK@83b357604d34",
+   "purl": "pkg:generic/anticloud/DEEPSTACK@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "Apache-2.0"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "null"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "github.com/gin-gonic/gin",
+   "version": "v1.7.0",
+   "purl": "pkg:golang/github.com/gin-gonic/gin@v1.7.0",
+   "bom-ref": "go/github.com/gin-gonic/gin@v1.7.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/go-ole/go-ole",
+   "version": "v1.2.4",
+   "purl": "pkg:golang/github.com/go-ole/go-ole@v1.2.4",
+   "bom-ref": "go/github.com/go-ole/go-ole@v1.2.4"
+  },
+  {
+   "type": "library",
+   "name": "github.com/go-redis/redis",
+   "version": "v6.15.2+incompatible",
+   "purl": "pkg:golang/github.com/go-redis/redis@v6.15.2+incompatible",
+   "bom-ref": "go/github.com/go-redis/redis@v6.15.2+incompatible"
+  },
+  {
+   "type": "library",
+   "name": "github.com/imroc/req",
+   "version": "v0.2.4",
+   "purl": "pkg:golang/github.com/imroc/req@v0.2.4",
+   "bom-ref": "go/github.com/imroc/req@v0.2.4"
+  },
+  {
+   "type": "library",
+   "name": "github.com/mattn/go-sqlite3",
+   "version": "v1.11.0",
+   "purl": "pkg:golang/github.com/mattn/go-sqlite3@v1.11.0",
+   "bom-ref": "go/github.com/mattn/go-sqlite3@v1.11.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/modern-go/concurrent",
+   "version": "v0.0.0-20180306012644-bacd9c7ef1dd",
+   "purl": "pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd",
+   "bom-ref": "go/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd"
+  },
+  {
+   "type": "library",
+   "name": "github.com/modern-go/reflect2",
+   "version": "v1.0.1",
+   "purl": "pkg:golang/github.com/modern-go/reflect2@v1.0.1",
+   "bom-ref": "go/github.com/modern-go/reflect2@v1.0.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/onsi/ginkgo",
+   "version": "v1.12.0",
+   "purl": "pkg:golang/github.com/onsi/ginkgo@v1.12.0",
+   "bom-ref": "go/github.com/onsi/ginkgo@v1.12.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/onsi/gomega",
+   "version": "v1.9.0",
+   "purl": "pkg:golang/github.com/onsi/gomega@v1.9.0",
+   "bom-ref": "go/github.com/onsi/gomega@v1.9.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/satori/go.uuid",
+   "version": "v1.2.0",
+   "purl": "pkg:golang/github.com/satori/go.uuid@v1.2.0",
+   "bom-ref": "go/github.com/satori/go.uuid@v1.2.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/shirou/gopsutil",
+   "version": "v2.18.12+incompatible",
+   "purl": "pkg:golang/github.com/shirou/gopsutil@v2.18.12+incompatible",
+   "bom-ref": "go/github.com/shirou/gopsutil@v2.18.12+incompatible"
+  },
+  {
+   "type": "library",
+   "name": "github.com/shirou/w32",
+   "version": "v0.0.0-20160930032740-bb4de0191aa4",
+   "purl": "pkg:golang/github.com/shirou/w32@v0.0.0-20160930032740-bb4de0191aa4",
+   "bom-ref": "go/github.com/shirou/w32@v0.0.0-20160930032740-bb4de0191aa4"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/crypto",
+   "version": "v0.0.0-20200622213623-75b288015ac9",
+   "purl": "pkg:golang/golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9",
+   "bom-ref": "go/golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/net",
+   "version": "v0.0.0-20190503192946-f4e77d36d62c",
+   "purl": "pkg:golang/golang.org/x/net@v0.0.0-20190503192946-f4e77d36d62c",
+   "bom-ref": "go/golang.org/x/net@v0.0.0-20190503192946-f4e77d36d62c"
+  }
+ ],
+ "sha_unverified": true
+}
